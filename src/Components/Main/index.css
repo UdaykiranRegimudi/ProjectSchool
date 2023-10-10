@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.mainImage{
+    height: 60vh;
+    width: 100%;
+}
+.discp{
+    width: 50%;
+    margin-top: 15vh;
+}
