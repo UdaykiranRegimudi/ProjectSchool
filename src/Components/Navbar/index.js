@@ -10,6 +10,9 @@ const Navbar = () =>{
                 <a className="nav-link" style={{color:'black'}} href='/'>HOME<span class="sr-only">(current)</span></a>
             </li>
             <li className="nav-item active ml-5 navItems">
+                <a className="nav-link" style={{color:'black'}} href='#'>DASHBOARD<span class="sr-only">(current)</span></a>
+            </li>
+            <li className="nav-item active ml-5 navItems">
                 <a className="nav-link" href="#" style={{color:'black'}}>PROJECT <span class="sr-only">(current)</span></a>
             </li>
             <li className="nav-item ml-5 ">
@@ -25,16 +28,16 @@ const Navbar = () =>{
                 <a className="nav-link" href="/about" style={{color:'black'}}>ABOUT US</a>
             </li>
             <li className="nav-item ml-5">
-                <a className="nav-link" href="#" style={{color:'black'}}>CONTACT US</a>
+                <a className="nav-link" href="/contactus" style={{color:'black'}}>CONTACT US</a>
             </li>
             <li className="nav-item dropdown ml-5">
                 <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style={{color:'black'}}>
-                DROPDOWN
+                RANKING
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a className="dropdown-item" href="#">Action</a>
-                <a className="dropdown-item" href="#">Another action</a>
-                <a className="dropdown-item" href="#">Something else here</a>
+                <a className="dropdown-item" href="#">COLLEGES</a>
+                <a className="dropdown-item" href="#">PROGRAMMERS</a>
+                <a className="dropdown-item" href="#">PROJECTS</a>
                 </div>
             </li>
             </ul>

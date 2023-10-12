@@ -1,0 +1,57 @@
+.contactBackground{
+    background-image: url('https://i.pinimg.com/736x/0a/33/1c/0a331ca136ee7de6287caad2388e5664.jpg');
+    height: 30vh;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-size: cover;
+    
+}
+
+.box{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.form{
+    padding-bottom: 30px;
+}
+.box1{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 8px;
+    
+}
+.phone{
+    height: 10vh;
+    margin-left: 28px;
+    margin-top: 10px;
+}
+.number{
+    margin-top: 35px;
+    margin-left: 47px;
+}
+.phoneCard{
+    display: flex;
+}
+.mail{
+    height: 8vh;
+    margin-left: 32px;
+    width: 4vw;
+    margin-top: 28px;
+}
+.mail1{
+    margin-top: 45px;
+    
+}
+
+  
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+}
