@@ -10,7 +10,7 @@ const Navbar = () =>{
                 <a className="nav-link" style={{color:'black'}} href='/'>HOME<span class="sr-only">(current)</span></a>
             </li>
             <li className="nav-item active ml-5 navItems">
-                <a className="nav-link" style={{color:'black'}} href='#'>DASHBOARD<span class="sr-only">(current)</span></a>
+                <a className="nav-link" style={{color:'black'}} href='/dashboard'>DASHBOARD<span class="sr-only">(current)</span></a>
             </li>
             <li className="nav-item active ml-5 navItems">
                 <a className="nav-link" href="#" style={{color:'black'}}>PROJECT <span class="sr-only">(current)</span></a>

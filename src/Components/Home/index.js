@@ -18,7 +18,7 @@ const Home = () =>{
                 <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                 <a className="dropdown-item" href="/signup">Sign Up</a>
                 <a className="dropdown-item" href="#">College Login</a>
-                <a className="dropdown-item" href="#">Student Login</a>
+                <a className="dropdown-item" href="/studentogin">Student Login</a>
                 
                 </div>
             </div>

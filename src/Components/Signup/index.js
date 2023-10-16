@@ -9,6 +9,7 @@ const Signup = () =>{
 
     const Username = (e) =>{
         data.username = e.target.value
+        setData("")
 
     }
     const Email = (e) =>{
@@ -27,7 +28,7 @@ const Signup = () =>{
         data.password = e.target.value
 
     }
-    const handleSubmit = (event) =>{
+    const handleSubmit = (event) =>{    
         event.preventDefault()
         let jsonData = JSON.stringify(data)
         console.log(jsonData)
@@ -41,10 +42,14 @@ const Signup = () =>{
                 <div className="col-lg-12 col-xl-11">
                     <div className="card text-black" style={{borderRadius:'25px'}}>
                     <div className="card-body p-md-5">
+                        <div style={{display:'flex',justifyContent:'',}}>
+                            <button className="btn btn--outline-primary" style={{marginLeft:'30px',width:'10vw'}}>Login</button>
+                            <button className="btn btn--outline" style={{width:"10vw",marginLeft:'30px'}}>Signup</button>
+                        </div>
                         <div className="row justify-content-center">
                         <div className="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1 mr-0" >
 
-                            <p className="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
+                            <p className=   "text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
 
                             <form className="mx-1 mx-md-4" onSubmit={handleSubmit}>
 
